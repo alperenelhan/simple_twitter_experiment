@@ -1,0 +1,110 @@
+body {
+	margin: 0px;
+	background: #E1E1E1;
+}
+
+#search-container {
+	text-align: center;	
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index: 1000;
+}
+
+#instant-search {
+	width: 100%;
+	-webkit-appearance: none;
+	font-family: Ubuntu;
+	border: 2px solid rgb(255, 255, 255);
+	background: rgb(255, 255, 255);
+	font-size: 18px;
+	color: #000000;
+	padding: 0 20px;
+	height: 40px;
+	vertical-align: middle;
+	outline: none;
+	-webkit-box-shadow: 0px 0px 12px 2px rgba(119, 119, 119, 1);
+	box-shadow: 0px 0px 12px 2px rgba(119, 119, 119, 1);
+}
+
+::-webkit-search-cancel-button {   /* select all "X" buttons in search inputs */
+    -webkit-appearance: none;      /* hide the default "X" button */
+}
+
+.options {
+	position: fixed;
+	background: white;
+	background-size: contain;
+	bottom: 0px;
+	height: 30px;
+	min-width: 30px;
+	margin-left: 25px;
+	margin-bottom: 25px;
+	-webkit-box-shadow: 0px 0px 12px 2px rgba(119, 119, 119, 1);
+	box-shadow: 0px 0px 12px 2px rgba(119, 119, 119, 1);
+	cursor: pointer;
+}
+
+#gear-icon {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+}
+
+.hover-text {
+	margin-left: 31px;
+	margin-right: 6px;
+	padding-top: 7px;
+	display: none;
+	font-family: Sans;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#popover {
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	margin-left: 25px;
+	margin-bottom: 70px;
+	min-height: 100px;
+	min-width: 320px;
+	background: white;
+	-webkit-box-shadow: 0px 0px 12px 2px rgba(119, 119, 119, 1);
+	box-shadow: 0px 0px 12px 2px rgba(119, 119, 119, 1);
+}
+
+.slider {
+	height: 16px;
+	margin-top: 8px;
+	margin-left: 100px;
+	margin-right: 45px;
+}
+
+.ui-slider-handle {
+	width: 13px !important;
+	height: 24px !important;
+	border-color: black;
+}
+
+.ui-slider-range {
+	background: black;
+}
+
+.slider-text {
+	position: absolute;
+	margin-top: -17px;
+	margin-left: 15px;
+}
+
+#count-container {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#count, #interval {
+	position: absolute;
+	right: 0px;
+	margin-right: 12px;
+	margin-top: -17px;
+}
