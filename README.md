@@ -1,4 +1,4 @@
-bil488
+Simple Twitter Experiment
 ======
 
-Lab Experiment
+Search tweets from twitter
